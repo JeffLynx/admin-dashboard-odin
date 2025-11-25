@@ -134,8 +134,41 @@
 
 .sidebar {
   grid-area: 1 / 1 / 3 / 2;
-  background-color: white;
+  background-color: dodgerblue;
   border: 1px solid black;
+
+  display: grid;
+  grid-template-rows: 100px 300px 200px;
+}
+
+.dash_header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.dash_header img {
+  height: 3em;
+  width: 3em;
+}
+
+.nav {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.nav ul li img {
+  height: 2em;
+  width: 2em;
+}
+
+.utils {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.utils img {
+  height: 2em;
+  width: 2em;
 }
 
 .main {
